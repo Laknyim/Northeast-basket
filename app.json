@@ -32,11 +32,12 @@
       "bundler": "metro"
     },
     "plugins": [
-      [
-        "expo-router",
-        {
-          "origin": "https://replit.com/"
-        }
+  [
+    "expo-router",
+    { "origin": "https://northeast-basket.vercel.app/" }
+  ]
+]
+        
       ],
       "expo-font",
       "expo-web-browser"
