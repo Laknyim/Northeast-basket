@@ -1,0 +1,58 @@
+const GREEN_DEEP = "#1A5C2D";
+const GREEN_MID = "#2D7A3A";
+const GREEN_LIGHT = "#4CAF50";
+const GOLD = "#B8891A";
+const GOLD_DARK = "#D4A843";
+
+export default {
+  light: {
+    text: "#111111",
+    textSecondary: "#6B7280",
+    textTertiary: "#9CA3AF",
+    background: "#F8F7F4",
+    backgroundCard: "#FFFFFF",
+    backgroundSecondary: "#F1F5F2",
+    backgroundAccent: "#FDF8EE",
+    tint: GREEN_DEEP,
+    primary: GREEN_DEEP,
+    primaryLight: GREEN_MID,
+    primaryDark: "#0D3A1A",
+    primaryFade: "#E6F0E9",
+    accent: GOLD,
+    accentLight: "#FDF3DC",
+    border: "#E8E8E4",
+    borderLight: "#F2F2EF",
+    danger: "#DC2626",
+    warning: "#D97706",
+    success: "#059669",
+    tabIconDefault: "#B0B0A8",
+    tabIconSelected: GREEN_DEEP,
+    shadow: "#000000",
+    statusBar: "dark" as const,
+  },
+  dark: {
+    text: "#F2F2F0",
+    textSecondary: "#9CA3AF",
+    textTertiary: "#6B7280",
+    background: "#111111",
+    backgroundCard: "#1C1C1C",
+    backgroundSecondary: "#252525",
+    backgroundAccent: "#1E1A0E",
+    tint: GREEN_LIGHT,
+    primary: GREEN_MID,
+    primaryLight: GREEN_LIGHT,
+    primaryDark: GREEN_DEEP,
+    primaryFade: "#1A2D1D",
+    accent: GOLD_DARK,
+    accentLight: "#2A2210",
+    border: "#2C2C2C",
+    borderLight: "#222222",
+    danger: "#EF4444",
+    warning: "#F59E0B",
+    success: "#10B981",
+    tabIconDefault: "#555555",
+    tabIconSelected: GREEN_LIGHT,
+    shadow: "#000000",
+    statusBar: "light" as const,
+  },
+};
